@@ -12,63 +12,117 @@ dsa/
 └── practice/         # Additional practice problems
 ```
 
-## How to Use This Repository 📚
+## Solution Documentation Structure 📝
 
-### 1. Learning Path
-- Start with basics in the language-specific folder (e.g., `cpp/`)
-- Move to fundamental DSA concepts in `concepts/`
-- Practice with problems in `practice/` and `leetcode/`
+Each problem solution should include:
 
-### 2. For Each Topic
-- Read concept notes
-- Study implementations
-- Solve related problems
-- Review solutions
-- Make revision notes
+### 1. Problem Documentation (`problem.md`)
+```markdown
+# Problem Name
 
-### 3. LeetCode Integration
-Each problem in the leetcode directory includes:
-- Problem link
-- Difficulty level
-- Topic tags
-- Solution with detailed explanation
-- Time & Space complexity
-- Key learning points
-- Related problems
+## Description
+[Problem description]
 
-### 4. Practice System
-1. **Daily Practice**
-   - Solve at least 1-2 new problems
-   - Revise 2-3 previously solved problems
-   - Document learnings
+## Constraints
+- Time Limit: O(?)
+- Space Limit: O(?)
+- Input Constraints
 
-2. **Topic-wise Practice**
-   - Focus on one topic at a time
-   - Complete all problems in that topic
-   - Make topic-specific notes
-
-3. **Revision Strategy**
-   - Weekly revision of concepts
-   - Monthly revision of hard problems
-   - Maintain a revision log
-
-## File Naming Convention 📝
-
-### For LeetCode Problems
-```
-leetcode/[difficulty]/[problem-number]-[problem-name]/
-├── README.md        # Problem description & approach
-├── solution.cpp     # Solution implementation
-└── notes.md         # Personal notes & learnings
+## Examples
+[Input/Output examples]
 ```
 
-### For Concept Learning
+### 2. Visual Documentation (`diagrams/`)
+- Use `.drawio` files for diagrams (VS Code Draw.io Integration)
+- Include both source `.drawio` and exported `.png` files
+- Naming convention: `approach1-flow.drawio`, `memory-layout.drawio`
+
+### 3. Pseudocode (`pseudocode.md`)
+```markdown
+# Approach 1: [Name]
+
+## High-level Idea
+[Brief explanation]
+
+## Pseudocode
+```algorithm
+function solve(input):
+    // Step 1: Initialize
+    ...
+    // Step 2: Process
+    ...
+    // Step 3: Return result
+    return result
 ```
-concepts/[topic-name]/
-├── README.md        # Concept explanation
-├── implementation/  # Code implementations
-└── problems/        # Related practice problems
+
+### 4. Implementation (`solution.cpp`)
+```cpp
+/**
+ * Solution for: [Problem Name]
+ * Approach: [Approach Name]
+ * 
+ * Time: O(?)
+ * Space: O(?)
+ */
+class Solution {
+    // Implementation
+};
 ```
+
+## Example Problem Structure
+```
+problem-name/
+├── problem.md           # Problem description
+├── diagrams/
+│   ├── approach1.drawio # Draw.io source file
+│   └── approach1.png    # Exported diagram
+├── pseudocode.md        # Algorithm steps
+├── solution.cpp         # Implementation
+└── README.md           # Solution explanation
+```
+
+## Setting Up VS Code for Diagrams 🎨
+
+1. Install Draw.io Integration:
+   - Open VS Code
+   - Go to Extensions (Ctrl+Shift+X)
+   - Search for "Draw.io Integration"
+   - Install the extension
+
+2. Creating Diagrams:
+   - Create a new file with `.drawio` extension
+   - VS Code will open the Draw.io editor
+   - Create your diagram
+   - Export as PNG if needed
+
+3. Recommended Diagram Types:
+   - Flow diagrams
+   - Memory layouts
+   - Tree/Graph visualizations
+   - State transitions
+   - Algorithm steps
+
+## Best Practices for Documentation 📚
+
+1. **Problem Analysis**
+   - Break down the problem
+   - List edge cases
+   - Draw initial examples
+
+2. **Visual Documentation**
+   - Use consistent colors/shapes
+   - Label important components
+   - Show step-by-step flow
+
+3. **Pseudocode**
+   - Use clear naming
+   - Include comments
+   - Show complexity analysis
+
+4. **Implementation**
+   - Match pseudocode structure
+   - Add detailed comments
+   - Include test cases
 
 ## Contributing 🤝
 

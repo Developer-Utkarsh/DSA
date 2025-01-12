@@ -15,79 +15,103 @@ practice/
     └── ...
 ```
 
-## Problem Categories 📋
+## Problem Documentation Structure 📋
 
-1. **Implementation Problems**
-   - Basic programming concepts
-   - Standard algorithms
-   - Data structure operations
+Each problem should be organized as follows:
 
-2. **Pattern Problems**
-   - Two pointers
-   - Sliding window
-   - Dynamic programming
-   - Graph traversals
-
-3. **Real-world Problems**
-   - System design
-   - Object-oriented design
-   - Database queries
+```
+[category]/[problem-name]/
+├── README.md           # Problem description
+├── diagrams/           # Visual explanations
+│   ├── approach.drawio
+│   └── approach.png
+├── pseudocode.md       # Algorithm steps
+└── solution.cpp        # Implementation
+```
 
 ## Solution Template 📝
 
-```cpp
-/*
-Problem: [Name]
+### README.md
+```markdown
+# [Problem Name]
 Source: [Where this problem is from]
 Difficulty: [Level]
 Topics: [Related topics]
 
-Problem Statement:
+## Problem Statement
 [Detailed problem statement]
 
-Input Format:
+## Visual Explanation
+![Approach](./diagrams/approach.png)
+
+## Input Format
 [What input to expect]
 
-Output Format:
+## Output Format
 [What output to produce]
 
-Constraints:
+## Constraints
 [Input/Output constraints]
 
-Example:
+## Example
 Input: [Sample input]
 Output: [Sample output]
 Explanation: [Why this output]
+```
 
-Approach:
+### Pseudocode Template
+```markdown
+# Approach: [Name]
+
+## High-level Idea
+[Brief explanation]
+
+## Steps
 1. [Step 1]
 2. [Step 2]
 ...
 
-Time Complexity: O(?)
-Space Complexity: O(?)
-
-Learning Points:
-- [Point 1]
-- [Point 2]
-*/
-
-// Solution implementation
+## Pseudocode
+```algorithm
+function solve(input):
+    // Implementation steps
 ```
+
+## Visual Documentation Guidelines 🎨
+
+1. **Types of Diagrams**
+   - Flow diagrams
+   - Data structure state
+   - Algorithm steps
+   - Memory layout
+
+2. **Using Draw.io**
+   - Create in `diagrams/` folder
+   - Use consistent styling
+   - Include both source and PNG
+
+3. **Diagram Best Practices**
+   - Clear labels
+   - Step numbers
+   - Color coding
+   - Legend if needed
 
 ## Practice Strategy 💪
 
-1. **Daily Practice**
-   - 1-2 new problems
-   - 1 implementation
-   - 1 revision problem
+1. **Problem Solving**
+   - Draw out the solution
+   - Write pseudocode
+   - Test with examples
+   - Optimize approach
 
-2. **Weekly Goals**
-   - 5 problems per topic
-   - 1 complex problem
-   - Topic revision
+2. **Documentation**
+   - Clear problem statement
+   - Visual explanations
+   - Step-by-step solution
+   - Learning points
 
-3. **Monthly Review**
-   - Solve past problems
-   - Time solutions
-   - Optimize code
+3. **Review Process**
+   - Revisit diagrams
+   - Update pseudocode
+   - Improve solution
+   - Add variations

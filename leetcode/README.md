@@ -16,15 +16,18 @@ leetcode/
     └── ...
 ```
 
-## Problem Template Structure 📋
+## Problem Solution Structure 📋
 
 Each problem should be organized as follows:
 
 ```
 [difficulty]/[problem-number]-[problem-name]/
 ├── README.md        # Problem description & approach
-├── solution.cpp     # Solution implementation
-└── notes.md         # Personal notes & learnings
+├── diagrams/        # Visual explanations
+│   ├── approach1.drawio
+│   └── approach1.png
+├── pseudocode.md    # Algorithm steps
+└── solution.cpp     # Implementation
 ```
 
 ### README.md Template
@@ -44,6 +47,9 @@ Each problem should be organized as follows:
 ## Problem Statement
 [Copy the problem statement here]
 
+## Visual Explanation
+![Approach 1](./diagrams/approach1.png)
+
 ## Approach
 1. [Step-by-step explanation]
 2. [Key insights]
@@ -58,29 +64,44 @@ Each problem should be organized as follows:
 - [Link to similar problem 2]
 ```
 
+### Pseudocode Template
+```markdown
+# Approach 1: [Name]
+
+## High-level Idea
+[Brief explanation]
+
+## Pseudocode
+```algorithm
+function solve(input):
+    // Step 1: Initialize
+    ...
+    // Step 2: Process
+    ...
+    // Step 3: Return result
+    return result
+```
+
 ## Best Practices 💡
 
 1. **Before Solving**
-   - Read problem carefully
-   - Note down constraints
-   - Think about edge cases
-   - Consider multiple approaches
+   - Draw out examples
+   - Create visual diagrams
+   - Write pseudocode
 
 2. **While Solving**
-   - Write clean, commented code
-   - Test with example cases
-   - Consider edge cases
-   - Optimize if possible
+   - Document approach clearly
+   - Add visual explanations
+   - Include step-by-step breakdown
 
 3. **After Solving**
-   - Add time/space complexity
+   - Add complexity analysis
+   - Link related problems
    - Note key learnings
-   - Link similar problems
-   - Add revision notes
 
-## Revision Strategy 📚
+## Using Draw.io in VS Code 🎨
 
-1. **First Review**: 24 hours after solving
-2. **Second Review**: 7 days after solving
-3. **Third Review**: 30 days after solving
-4. **Final Review**: Before interviews
+1. Create diagrams in `diagrams/` folder
+2. Use consistent styling
+3. Export as PNG for README
+4. Include both .drawio and .png files
