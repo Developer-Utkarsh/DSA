@@ -140,9 +140,8 @@ Feel free to:
 
 ## Resources 📖
 
-- [LeetCode Profile](your-leetcode-profile)
-- [DSA Roadmap](link-to-roadmap)
-- [Recommended Books/Courses]
+- [LeetCode Profile](https://leetcode.com/u/developer_utkarsh/)
+- [DSA Youtube Playlist](https://www.youtube.com/playlist?list=PLfqMhTWNBTe137I_EPQd34TsgV6IO55pt)
 
 ## Happy Learning! 🎯
 
