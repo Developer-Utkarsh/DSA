@@ -91,6 +91,7 @@ for(int i = 0; i < size; i++) {
    - Count number of even elements
    - Find largest element
    - Print elements at even indices
+   - [Single Number](https://leetcode.com/problems/single-number) - Great starter problem using XOR! (See our solution in `/leetcode/by-topic/arrays/single-number/`)
 
 2. **Basic Level**
    - Print array in reverse order
