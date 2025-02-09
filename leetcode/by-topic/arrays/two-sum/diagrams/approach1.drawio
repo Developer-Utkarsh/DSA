@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="two-sum-approach1" name="Two Sum - Brute Force Approach">
+        <mxGraphModel dx="580" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Two Sum - Finding Target Sum 9" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="250" y="40" width="350" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Input Array" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0050ef;strokeColor=#001DBC;fontSize=14;fontStyle=1;glass=0;shadow=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="140" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=14;fontStyle=1;glass=0;shadow=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="140" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#76608a;strokeColor=#432D57;fontSize=14;fontStyle=1;glass=0;shadow=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="240" y="140" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="15" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#6d8764;strokeColor=#3A5431;fontSize=14;fontStyle=1;glass=0;shadow=1;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="310" y="140" width="60" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Index: 0" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="210" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Index: 1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" parent="1" vertex="1">
+                    <mxGeometry x="170" y="210" width="60" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Step 1: Outer Loop (i = 0)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="260" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Select first number: 2" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;align=left;spacingLeft=10;fillColor=#0050ef;strokeColor=#001DBC;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="300" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Step 2: Inner Loop (j = i + 1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="360" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Check next number: 7" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e51400;strokeColor=#B20000;fontSize=12;align=left;spacingLeft=10;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="400" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Found Target Sum!" style="text;html=1;strokeColor=#BD7000;fillColor=#f0a30a;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="460" width="150" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="2 + 7 = 9" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="100" y="500" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="Return [0, 1]" style="rounded=1;whiteSpace=wrap;html=1;fontSize=14;fontStyle=1;align=center;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" parent="1" vertex="1">
+                    <mxGeometry x="100" y="540" width="270" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;curved=1;strokeWidth=2;strokeColor=#6c8ebf;" parent="1" source="4" target="11" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;curved=1;strokeWidth=2;strokeColor=#82b366;" parent="1" source="5" target="13" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Legend" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1" parent="1" vertex="1">
+                    <mxGeometry x="450" y="100" width="100" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="First Number (i)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d80073;strokeColor=#A50040;fontSize=12;align=left;spacingLeft=10;fontColor=#ffffff;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="140" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Second Number (j)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e3c800;strokeColor=#B09500;fontSize=12;align=left;spacingLeft=10;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="180" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="Unused Numbers" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f0a30a;strokeColor=#BD7000;fontSize=12;align=left;spacingLeft=10;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="220" width="200" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Time Complexity: O(n²)&#10;Space Complexity: O(1)" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontStyle=2" parent="1" vertex="1">
+                    <mxGeometry x="450" y="280" width="200" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

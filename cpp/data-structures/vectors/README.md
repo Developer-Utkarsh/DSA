@@ -26,6 +26,12 @@ vectors/
    - Time Complexity: O(n)
    - [LeetCode Similar Problem](https://leetcode.com/problems/reverse-array)
 
+3. **Two Sum Problem**
+   - Find two numbers that add up to target
+   - Implementation: [Two Sum Solution](/leetcode/by-topic/arrays/two-sum/)
+   - Time Complexity: O(n²)
+   - [LeetCode Problem](https://leetcode.com/problems/two-sum)
+
 ## Vector Operations Cheat Sheet 📝
 
 ```cpp

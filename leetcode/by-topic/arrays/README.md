@@ -5,8 +5,9 @@
 ### Easy
 1. Two Sum (#1)
    - [Problem Link](https://leetcode.com/problems/two-sum)
-   - Using HashMap approach
-   - Time: O(n), Space: O(n)
+   - [Solution](/leetcode/by-topic/arrays/two-sum/)
+   - Brute Force approach
+   - Time: O(n²), Space: O(1)
 
 ### Medium
 1. Container With Most Water (#11)
