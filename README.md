@@ -1,15 +1,17 @@
 # Data Structures & Algorithms Learning Repository 🚀
 
-Welcome to my DSA learning journey! This repository serves as a comprehensive guide for learning, practicing, and revising Data Structures and Algorithms.
+Welcome to my DSA learning journey! This repository serves as a comprehensive guide for learning, practicing, and revising Data Structures and Algorithms in C++.
 
 ## Repository Structure 📂
 
 ```
 dsa/
-├── cpp/              # C++ implementations and practice
-├── leetcode/         # LeetCode solutions and notes
-├── concepts/         # DSA concepts and explanations
-└── practice/         # Additional practice problems
+├── basics/          # C++ fundamentals and basic concepts
+├── data-structures/ # DS implementations and theory
+├── algorithms/      # Algorithm implementations and concepts
+├── techniques/      # Problem-solving patterns and approaches
+├── leetcode/        # LeetCode solutions and notes
+└── practice/        # Additional practice problems
 ```
 
 ## Solution Documentation Structure 📝
