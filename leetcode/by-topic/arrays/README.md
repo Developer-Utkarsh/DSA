@@ -9,6 +9,12 @@
    - Brute Force approach
    - Time: O(n²), Space: O(1)
 
+2. Remove Duplicates (#26)
+   - [Problem Link](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+   - [Solution](/leetcode/by-topic/arrays/remove-duplicates/)
+   - Two Pointer approach
+   - Time: O(n), Space: O(1)
+
 ### Medium
 1. Container With Most Water (#11)
    - [Problem Link](https://leetcode.com/problems/container-with-most-water)

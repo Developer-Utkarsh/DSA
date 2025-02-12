@@ -70,9 +70,9 @@ vec[index];                // Get element at index (no bounds checking)
 
 2. **Suggested LeetCode Problems:**
    - [Two Sum](https://leetcode.com/problems/two-sum)
-   - [Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array)
+   - [Remove Duplicates](https://leetcode.com/problems/remove-duplicates-from-sorted-array) - Great example of in-place modification using two pointers! Check out our detailed solution in `/leetcode/by-topic/arrays/remove-duplicates/`
    - [Rotate Array](https://leetcode.com/problems/rotate-array)
-   - [Single Number](https://leetcode.com/problems/single-number) - Great problem for learning bit manipulation with vectors! Check out our detailed solution in `/leetcode/by-topic/arrays/single-number/`
+   - [Single Number](https://leetcode.com/problems/single-number)
 
 ## Best Practices 💡
 
